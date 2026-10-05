@@ -180,7 +180,7 @@ void destroy()
     count = 0;
 }
 /*
-
+OUTPUT:
  1- Push
  2 - Pop
  3 - Top
