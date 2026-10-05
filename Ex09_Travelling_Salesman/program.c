@@ -43,6 +43,7 @@ int main() {
             scanf("%d", &cost[i][j]);
         }
     }
+    
 
     memset(dp, -1, sizeof(dp));
 
@@ -51,3 +52,13 @@ int main() {
 
     return 0;
 }
+/*
+output:
+Enter the number of cities: 4
+Enter the cost matrix:
+0 10 15 20
+10 0 35 25
+15 35 0 30
+20 25 30 0
+Minimum cost of the TSP: 80
+    */
