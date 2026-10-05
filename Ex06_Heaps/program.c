@@ -84,6 +84,7 @@ int main() {
     return 0;
 }
 /*
+output:
 1. Insert
 2. Delete
 3. Display
